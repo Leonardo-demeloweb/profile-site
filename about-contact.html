@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html>
+ 
+<head>
+  <title>Leonardo de Melo Web Development</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <!-- stylesheets -->
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <link href="css/dark.css" rel="stylesheet" type="text/css" />
+  <!-- modernizr enables HTML5 elements and feature detects -->
+  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+</head>
+ 
+<body>
+  <div id="main">
+ 
+    <!-- begin header -->
+    <header>
+      <div id="logo"><h1>demelo<a href="#">WEB</a>development</h1></div>
+      <nav>
+        <ul class="sf-menu" id="nav">
+          <li><a href="index.html">home</a></li>
+          <li class="selected"><a href="about.html">about me</a></li>
+          <li><a href="#">my portfolio</a>
+            <ul>
+              <li><a href="portfolio_one.html">Videos & links</a></li>
+              <li><a href="portfolio_two.html">Research</a></li>
+            </ul>
+          <li><a href="contact.php">contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- end header -->
+ 
+    <!-- begin content -->
+    <div id="site_content">
+      <div id="left_content">
+        <h1> demelo01@gmail.com - Sobre a filosofia deste projeto de arte</h1>
+        <p> WORK IN PROGRESS Na busca de um projeto estético que se expresse através das artes musicais e que se empenhe na tarefa de conhecer, de descobrir por que foram vedadas as possibilidades segundo as quais seria possível instituir uma vida aqui e agora, instaurando a questão de o por que a humanidade em vez de entrar em um estado verdadeiramente humano, estão se afundando em uma nova espécie de barbárie. Nesta questão já está implicada a perspectiva de transformação, por conseguinte uma filosofia fundada na prática estética da arte que não se contenta com a interpretação do mundo e se concentra em sua possibilidade de emancipação.</p> </p>
+      </div>
+      <div id="right_content">
+        <img style="float: left;" src="images/about1.png" title="about me" alt="about me"/>
+      </div>
+    </div>
+    <!-- end content -->
+ 
+    <!-- begin footer -->
+    <footer>
+      <p>CREATIVE COMMONS LICENSED, Leonardo de Melo development 2013. demelo01@gmail.com</p>
+      <p><img src="images/twitter.png" alt="twitter" />&nbsp;<img src="images/facebook.png" alt="facebook" />&nbsp;<img src="images/rss.png" alt="rss" /></p>
+    </footer>
+    <!-- end footer -->
+ 
+  </div>
+  <!-- javascript at the bottom for fast page loading -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.easing-sooper.js"></script>
+  <script type="text/javascript" src="js/jquery.sooperfish.js"></script>
+  <!-- initialise sooperfish menu -->
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('ul.sf-menu').sooperfish();
+    });
+  </script>
+</body>
+</html>
